@@ -1,5 +1,28 @@
 <resources>
-    <string name="app_name">navigableprototype</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Nombre de la app -->
+    <string name="app_name">NavigablePrototype</string>
+
+    <!-- Pantalla Home -->
+    <string name="welcome">Bienvenido/a</string>
+    <string name="home_subtitle">Explora la lista y navega el prototipo.</string>
+    <string name="go_to_list">Ir a la lista</string>
+    <string name="go_to_list_description">Navegar a la pantalla de lista</string>
+    <string name="logo_description">Logotipo</string>
+    <string name="bg_description">Fondo decorativo</string>
+
+    <!-- Pantalla Lista -->
+    <string name="list_title">Lista de elementos</string>
+    <string name="go_to_detail">Ver detalle</string>
+    <string name="go_to_detail_description">Navegar a la pantalla de detalle</string>
+
+    <!-- Pantalla Detalle -->
+    <string name="detail_title">Detalle</string>
+    <string name="detail_description">Aquí va una descripción más extensa del elemento seleccionado.</string>
+    <string name="back">Volver</string>
+
+    <!-- Pantalla Formulario -->
+    <string name="form_title">Formulario</string>
+    <string name="hint_name">Nombre</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_save_description">Guardar información en el formulario</string>
 </resources>
