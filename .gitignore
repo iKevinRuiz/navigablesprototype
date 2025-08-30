@@ -1,15 +1,32 @@
+# Archivos de Android Studio/IntelliJ
 *.iml
+.idea/
 .gradle
-/local.properties
+local.properties
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos generados
+/app/build/
+*/build/
+
+# Archivos de navegación y settings de Android Studio
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+/.idea/deploymentTargetDropDown.xml
+/.idea/deviceManager.xml
+
+# Archivos temporales
+*.log
