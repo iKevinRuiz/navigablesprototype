@@ -36,21 +36,21 @@ class FormFragment : Fragment(R.layout.fragment_form) {
 
             var valid = true
             if (name.isEmpty()) {
-                tilName.error = "El nombre es obligatorio"
+                tilName.error = getString(R.string.error_name_required)
                 valid = false
             }
             if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                tilEmail.error = "Correo inválido"
+                tilEmail.error = getString(R.string.error_email_invalid)
                 valid = false
             }
             if (desc.length < 5) {
-                tilDesc.error = "Agrega una descripción (mín. 5 caracteres)"
+                tilDesc.error = getString(R.string.error_desc_min)
                 valid = false
             }
 
             if (valid) {
-                Toast.makeText(requireContext(), "Guardado correctamente", Toast.LENGTH_SHORT).show()
-                findNavController().navigateUp() // vuelve a la pantalla anterior
+                Toast.makeText(requireContext(), getString(R.string.toast_saved_ok), Toast.LENGTH_SHORT).show()
+                findNavController().navigateUp()
             }
         }
     }

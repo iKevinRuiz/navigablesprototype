@@ -16,36 +16,53 @@
     <string name="go_to_detail_description">Navegar a la pantalla de detalle</string>
 
     <!-- Pantalla Detalle -->
-    <!-- Accesibilidad: descripción de la imagen de cabecera -->
     <string name="desc_detail_header">
         Fotografía de un atardecer en la Sierra Nevada: cielo dorado y nubes suaves sobre montañas oscuras, con siluetas de pinos en primer plano.
     </string>
-
-    <!-- Título y subtítulo reales -->
     <string name="detail_title">Atardecer en la Sierra Nevada</string>
     <string name="detail_subtitle">Sendero de los Pinos • Mirador Norte</string>
-
-    <!-- Sección de descripción -->
     <string name="detail_description_title">Descripción</string>
     <string name="detail_description_body">
         La imagen captura los últimos rayos del día tiñendo el cielo de tonos ámbar y violeta.
         Las cumbres, en contraluz, delinean el relieve de la Sierra Nevada mientras una hilera de pinos guía la vista hacia el horizonte.
         Es un punto clásico para fotógrafos y senderistas por su vista amplia y la luz suave del crepúsculo.
     </string>
-
-    <!-- Info rápida -->
     <string name="detail_quick_info">Información rápida</string>
     <string name="detail_status_label">Estado</string>
     <string name="detail_status_value">Abierto</string>
     <string name="detail_date_label">Actualizado</string>
     <string name="detail_date_value">1 de septiembre de 2025</string>
-
-    <!-- Botón -->
     <string name="back">Volver</string>
 
     <!-- Pantalla Formulario -->
+    <!-- Título/subtítulo de la pantalla -->
     <string name="form_title">Formulario</string>
+    <string name="form_new_record_title">Nuevo registro</string>
+    <string name="form_new_record_subtitle">Completa los campos y presiona Guardar</string>
+
+    <!-- Hints de campos -->
     <string name="hint_name">Nombre</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_description">Descripción</string>
+
+    <!-- ContentDescriptions de campos -->
+    <string name="cd_field_name">Campo de nombre</string>
+    <string name="cd_field_email">Campo de correo electrónico</string>
+    <string name="cd_field_description">Campo de descripción</string>
+
+    <!-- Botones -->
+    <string name="cancel">Cancelar</string>
+    <string name="cancel_description">Cancelar y volver</string>
+    <string name="save">Guardar</string>
+    <string name="save_description">Guardar el registro</string>
+
+    <!-- Acciones del formulario (Kotlin) -->
     <string name="btn_save">Guardar</string>
     <string name="btn_save_description">Guardar información en el formulario</string>
+
+    <!-- Mensajes de validación / feedback -->
+    <string name="error_name_required">El nombre es obligatorio</string>
+    <string name="error_email_invalid">Correo inválido</string>
+    <string name="error_desc_min">Agrega una descripción (mín. 5 caracteres)</string>
+    <string name="toast_saved_ok">Guardado correctamente</string>
 </resources>
