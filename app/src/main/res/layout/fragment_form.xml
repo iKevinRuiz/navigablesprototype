@@ -9,7 +9,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo arriba centrado -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo_description"
+            android:layout_marginBottom="24dp" />
 
         <!-- Título -->
         <com.google.android.material.textview.MaterialTextView
@@ -17,17 +27,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nuevo registro"
+            android:textAlignment="center"
             android:textAppearance="?attr/textAppearanceHeadlineSmall"
             android:layout_marginBottom="8dp" />
 
+        <!-- Subtítulo -->
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvFormSubtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Completa los campos y presiona Guardar"
+            android:textAlignment="center"
             android:textAppearance="?attr/textAppearanceBodyMedium"
             android:alpha="0.85"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="24dp" />
 
         <!-- Campo: Nombre -->
         <com.google.android.material.textfield.TextInputLayout
@@ -36,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nombre"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="16dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etName"
@@ -55,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Correo electrónico"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="16dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etEmail"
@@ -74,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Descripción"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etDesc"
@@ -93,27 +106,35 @@
             android:orientation="horizontal"
             android:weightSum="2">
 
+            <!-- Botón Cancelar -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCancel"
+                style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:minHeight="48dp"
                 android:text="Cancelar"
+                android:textColor="@android:color/black"
+                app:strokeColor="@android:color/darker_gray"
+                app:strokeWidth="1dp"
+                app:backgroundTint="@android:color/white"
                 android:contentDescription="Cancelar y volver" />
 
             <Space
                 android:layout_width="12dp"
                 android:layout_height="1dp" />
 
+            <!-- Botón Guardar -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSave"
-                style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:minHeight="48dp"
                 android:text="Guardar"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@android:color/black"
                 android:contentDescription="Guardar el registro" />
         </LinearLayout>
 

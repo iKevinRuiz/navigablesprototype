@@ -16,8 +16,31 @@
     <string name="go_to_detail_description">Navegar a la pantalla de detalle</string>
 
     <!-- Pantalla Detalle -->
-    <string name="detail_title">Detalle</string>
-    <string name="detail_description">Aquí va una descripción más extensa del elemento seleccionado.</string>
+    <!-- Accesibilidad: descripción de la imagen de cabecera -->
+    <string name="desc_detail_header">
+        Fotografía de un atardecer en la Sierra Nevada: cielo dorado y nubes suaves sobre montañas oscuras, con siluetas de pinos en primer plano.
+    </string>
+
+    <!-- Título y subtítulo reales -->
+    <string name="detail_title">Atardecer en la Sierra Nevada</string>
+    <string name="detail_subtitle">Sendero de los Pinos • Mirador Norte</string>
+
+    <!-- Sección de descripción -->
+    <string name="detail_description_title">Descripción</string>
+    <string name="detail_description_body">
+        La imagen captura los últimos rayos del día tiñendo el cielo de tonos ámbar y violeta.
+        Las cumbres, en contraluz, delinean el relieve de la Sierra Nevada mientras una hilera de pinos guía la vista hacia el horizonte.
+        Es un punto clásico para fotógrafos y senderistas por su vista amplia y la luz suave del crepúsculo.
+    </string>
+
+    <!-- Info rápida -->
+    <string name="detail_quick_info">Información rápida</string>
+    <string name="detail_status_label">Estado</string>
+    <string name="detail_status_value">Abierto</string>
+    <string name="detail_date_label">Actualizado</string>
+    <string name="detail_date_value">1 de septiembre de 2025</string>
+
+    <!-- Botón -->
     <string name="back">Volver</string>
 
     <!-- Pantalla Formulario -->
